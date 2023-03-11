@@ -15,3 +15,6 @@ router.put("/:id", blogController.updateBlog)
 router.delete("/:id", restrictDelete, blogController.deleteBlog)
 
 export default router; 
+
+
+
