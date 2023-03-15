@@ -22,7 +22,7 @@ dotenv.config();
 const app= express();
 
 //USE OF CORS AND BODYPARSER
-app.use(cors())
+app.use(cors({origin: '*'}))
 app.use(bodyParser.json())
 app.use(fileupload({useTempFiles:true}))
 //
