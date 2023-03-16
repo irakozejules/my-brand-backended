@@ -1,6 +1,6 @@
 import express from "express"
 import blogController from "../controllers/blogController.js"
-import restrictDelete from "../middleware/restrictdelete.js"
+import restrictDelete from "../middleware/restrictDelete.js"
 
 const router = express.Router()
 
